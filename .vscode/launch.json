@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SeqInpStream",
+            "request": "launch",
+            "mainClass": "SeqInpStream",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringProcessing",
+            "request": "launch",
+            "mainClass": "StringProcessing",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Enumeration",
+            "request": "launch",
+            "mainClass": "Enumeration",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapsAss",
+            "request": "launch",
+            "mainClass": "HashMapsAss",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomAccess",
+            "request": "launch",
+            "mainClass": "RandomAccess",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch UserExceptionAss",
+            "request": "launch",
+            "mainClass": "UserExceptionAss",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch fio_test1",
+            "request": "launch",
+            "mainClass": "fio_test1",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProducerConsumer",
+            "request": "launch",
+            "mainClass": "ProducerConsumer",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListStuff",
+            "request": "launch",
+            "mainClass": "ListStuff",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiThreading",
+            "request": "launch",
+            "mainClass": "MultiThreading",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadDemo",
+            "request": "launch",
+            "mainClass": "ThreadDemo",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackDemo",
+            "request": "launch",
+            "mainClass": "StackDemo",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ListInterface",
+            "request": "launch",
+            "mainClass": "ListInterface",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SyncTest",
+            "request": "launch",
+            "mainClass": "SyncTest",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadPriority",
+            "request": "launch",
+            "mainClass": "ThreadPriority",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadStartDemo",
+            "request": "launch",
+            "mainClass": "ThreadStartDemo",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DaemonThreads",
+            "request": "launch",
+            "mainClass": "DaemonThreads",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraylistdemo",
+            "request": "launch",
+            "mainClass": "arraylistdemo",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Welcome",
+            "request": "launch",
+            "mainClass": "Welcome",
+            "projectName": "Java_439a2f0f"
+        }
+    ]
+}

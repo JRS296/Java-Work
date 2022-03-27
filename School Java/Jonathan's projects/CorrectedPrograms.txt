@@ -1,0 +1,89 @@
+import java.util.Scanner;
+public class Bike
+{
+    Scanner input = new Scanner(System.in);
+    int num;
+    int v;
+    int su;
+    public void input()
+    {
+        System.out.println("Welcome to Yamaha bike rentals.");
+        System.out.println("Enter number of days for rental");
+        num = input.nextInt();
+    }
+    void calculate()
+    {
+        if ( num <= 5 )
+        {
+            v = 500;
+        }
+        else if ( num > 5 && num <= 10 )
+        {
+            v = 400;
+        }
+        else 
+        { 
+            v = 200;
+        }
+        su = num * v;
+    }
+    public static void main (String args[])
+    {
+        Bike obj = new Bike();
+        obj.input();
+        obj.calculate();
+        System.out.println("Number of days : " + obj.num);
+        System.out.println("rate : " + obj.v);
+        System.out.println("Amount to be paid : " + obj.su);
+    }
+}
+        
+
+
+
+
+import java.util.Scanner;
+public class Number
+{
+    Scanner input = new Scanner(System.in);
+    int x;
+    int sum = 0;
+    int y;
+    int prod = 1;
+    int count = 0;
+    public void input()
+    {
+        System.out.println("Enter number");
+        x = input.nextInt();
+    }
+    public void calculate_sum()
+    {
+        while ( x != 0 )
+        {
+            y = x % 10;
+            x = x / 10;
+            sum = sum + y;
+            calculate_prodeven_countodd();
+        }
+    }
+    public void calculate_prodeven_countodd()
+    {
+        if ( y % 2 ==0 )
+        {
+            prod = prod * y ;
+        }
+        else 
+        {
+            count ++;
+        }
+    }
+    public static void main (String args[])
+    {
+        Number obj = new Number();
+        obj.input();
+        obj.calculate_sum();
+        System.out.println("Sum of digits : " + obj.sum);
+        System.out.println("Product of even numbers : " + obj.prod);
+        System.out.println("Count of odd digits : " + obj.count);
+    }
+}

@@ -1,0 +1,2 @@
+obj.input();
+        obj.output();

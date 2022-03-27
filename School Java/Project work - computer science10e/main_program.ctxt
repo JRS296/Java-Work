@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=main_program
+comment1.params=
+comment1.target=void\ neon_num()
+comment2.params=
+comment2.target=void\ special_num()
+comment3.params=
+comment3.target=void\ automorphic_num()
+comment4.params=
+comment4.target=void\ armstrong_num()
+comment5.params=
+comment5.target=void\ palindrome_num()
+comment6.params=
+comment6.target=void\ factorial()
+comment7.params=
+comment7.target=void\ main()
+numComments=8

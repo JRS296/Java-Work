@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=u\ time\ acc
+comment0.target=float\ distanc(float,\ float,\ float)
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

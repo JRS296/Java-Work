@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=str_reversal
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=myStr
+comment2.target=java.lang.String\ reverseString(java.lang.String)
+numComments=3

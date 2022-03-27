@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mobius()
+comment1.params=
+comment1.target=void\ input()
+comment2.params=
+comment2.target=int\ primeFac()
+comment2.text=\ \ The\ function\ primefac()\ either\ returns\ '0'\ if\ prime\ factors\ are\ repeated\r\nor\ returns\ the\ no.of\ prime\ factors
+comment3.params=
+comment3.target=void\ display()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

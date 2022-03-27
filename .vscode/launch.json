@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Path_FileSeperatorDemo",
+            "request": "launch",
+            "mainClass": "Path_FileSeperatorDemo",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
             "name": "Launch SeqInpStream",
             "request": "launch",
             "mainClass": "SeqInpStream",

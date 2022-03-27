@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ intro()
+comment1.params=
+comment1.target=double\ english()
+comment2.params=
+comment2.target=double\ maths()
+comment3.params=
+comment3.target=double\ socials()
+comment4.params=
+comment4.target=double\ sixth_sub()
+comment5.params=
+comment5.target=double\ science()
+comment6.params=
+comment6.target=void\ main()
+numComments=7

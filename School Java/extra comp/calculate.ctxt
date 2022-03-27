@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=X\ Y
+comment0.target=calculate(double,\ double)
+comment1.params=x
+comment1.target=void\ square(double)
+comment2.params=x\ y
+comment2.target=void\ rectangle(double,\ double)
+comment3.params=x
+comment3.target=void\ circle(double)
+comment4.params=x\ y\ z
+comment4.target=void\ triangle_per(double,\ double,\ double)
+comment5.params=x\ y
+comment5.target=void\ triangle_area(double,\ double)
+comment6.params=
+comment6.target=void\ main()
+numComments=7

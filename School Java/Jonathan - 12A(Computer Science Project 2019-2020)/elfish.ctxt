@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=ch\ n\ p
+comment1.target=int\ elf(char[],\ int,\ int)
+numComments=2

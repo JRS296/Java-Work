@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=java.lang.String\ toBinary(int)
+comment1.params=s
+comment1.target=int\ countOne(java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

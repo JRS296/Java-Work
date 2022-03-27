@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ input()
+comment1.params=
+comment1.target=void\ convert()
+comment2.params=
+comment2.target=void\ sortArray()
+comment3.params=
+comment3.target=void\ fillSpiral()
+comment4.params=
+comment4.target=void\ printArray()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

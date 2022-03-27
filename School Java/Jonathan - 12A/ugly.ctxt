@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=int\ maxDivide(int,\ int)
+comment1.params=no
+comment1.target=int\ isUgly(int)
+comment2.params=n
+comment2.target=int\ getNthUglyNo(int)
+comment2.text=\ Function\ to\ get\ the\ nth\ ugly\ \ \r\nnumber
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

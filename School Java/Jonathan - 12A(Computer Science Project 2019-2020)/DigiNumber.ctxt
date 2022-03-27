@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DigiNumber()
+comment1.params=n
+comment1.target=DigiNumber(long)
+comment2.params=n\ d
+comment2.target=void\ digitfrequency(long,\ int)
+comment3.params=N
+comment3.target=long\ sumDigits(long)
+comment4.params=ans
+comment4.target=void\ printsum(long)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

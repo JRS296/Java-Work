@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=mat\ tr\ N
+comment0.target=void\ transpose(int[][],\ int[][],\ int)
+comment1.params=mat\ N
+comment1.target=boolean\ SymSum(int[][],\ int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

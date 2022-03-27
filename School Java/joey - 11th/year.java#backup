@@ -1,0 +1,95 @@
+import java.util.Scanner;
+class year
+{
+    public static void main()
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter number of days");
+        int d1 = input.nextInt();
+        System.out.println("Enter the year");
+        int yr = input.nextInt();
+        System.out.println("Enter number of days after current date");
+        int d2 = input.nextInt();
+        int feb = 0;
+        if (yr % 100 == 0)
+        {
+            if(yr % 400 == 0)
+            {
+                System.out.println("It is a leap year");
+                feb = 29;
+            }
+        }
+        else if (yr % 4 == 0)
+        {
+            System.out.println("It is a leap year");
+            feb = 29;
+        }
+        else
+        {
+            System.out.println("It is not a leap year");
+            feb = 28;
+        }
+        String mth[] = {"January","February","March","April","May","June","July","August","September","October","November","December"};
+        int x = 0;int z =x+1;int sum = 31;int date=0;String month=" ";
+        if(d1>337+feb)
+        {
+               d1-=(337+feb);
+               yr+=1;
+               if (yr % 100 == 0)
+               {
+                    if(yr % 400 == 0)
+                    {
+                         System.out.println("It is a leap year");
+                         feb = 29;
+                    }
+               }
+               else if (yr % 4 == 0)
+               {
+                         System.out.println("It is a leap year");
+                         feb = 29;
+               }
+               else
+               {
+                        feb = 28;
+               }
+        }
+        int ar[] = {31,feb,31,30,31,30,31,31,30,31,30,31};
+        if (d1>0 && d1 <= ar[x])
+        {
+            date = d1;
+            month = mth[x];
+        }
+        else if(d1>ar[x])
+        {
+            do
+            {
+                if(d1>sum && d1 < sum+ar[z])
+                {
+                    date = d1-sum;
+                    month = mth[z];
+                    break;
+                }
+                sum+=ar[z];z++;
+            }
+            while(d1>31);
+            }
+        else        
+        {
+            System.out.println("Invalid entry, re-enter year");
+        }
+        System.out.println("The date is : "+date+" "+month+" "+yr);
+        int d3=d1+d2;
+        if(d3>ar[z])
+        {
+            d3-=sum+ar[z];
+            month = mth[z+1];
+            }
+        else if (d3 > 337+feb)
+        {
+            d3-=(337+feb);
+            yr+=1;month = mth[z];
+        }
+        System.out.println("The date after " +d2);System.out.println(+date+" "+month+" "+yr);
+    }
+}
+        

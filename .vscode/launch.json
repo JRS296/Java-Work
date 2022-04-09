@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FrameWindow",
+            "request": "launch",
+            "mainClass": "FrameWindow",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Main",

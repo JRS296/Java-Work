@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Iterator;
 
 class MyException extends Exception
 {
@@ -87,5 +88,25 @@ public class ListStuff {
         obj.del(list[3], 1);
         obj.addFront(list[1], 67);
         obj.differences(list[2], list[4]);
+    }
+}
+
+
+
+class ALdemo {
+    public static void main(String arg[]) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(34);
+        list.add(32);
+        list.add(12);
+        list.add(1, 25);
+        System.out.println(list);
+        list.remove(2);
+        System.out.println(list.get(1));
+        System.out.println(list);
+        Iterator itr = list.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
     }
 }

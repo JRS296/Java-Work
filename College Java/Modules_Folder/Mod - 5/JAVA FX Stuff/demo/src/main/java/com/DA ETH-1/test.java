@@ -10,7 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import javafx.scene.text.Text;
 
-public class q3 extends Application {
+public class test extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {

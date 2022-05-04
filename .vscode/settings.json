@@ -1,16 +1,28 @@
 {
     "java.project.sourcePaths": [
+        "ETH da1",
         "College Java/Modules_Folder/Mod - 5",
         "College Java/Modules_Folder/Mod - 4",
         "College Java/Modules_Folder/Mod - 3",
         "College Java/Lab Class/24.03.2022",
+        "College Java/Lab Class/09.04.2022",
         "College Java/Class Work/Class #4 - 21.03.22",
         "College Java/Class Work/Class #3 - 17.03.22",
         "College Java/Assignments/Ass - 2",
         "College Java/Assignments/Ass - 1",
-        "College Java/Lab Class/09.04.2022",
-        "College Java\\JAVA ETH DA-1",
-        "ETH da1"
+        "College Java/LAB FAT"
     ],
-    "java.dependency.packagePresentation": "flat"
+    "java.dependency.packagePresentation": "flat",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.base.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.controls.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.fxml.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.graphics.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.media.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.swing.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx.web.jar",
+        "c:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\\javafx-swt.jar",
+        "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.29.jar"
+    ]
 }

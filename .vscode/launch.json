@@ -6,6 +6,29 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FAT_prac_q2",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "FAT_prac_q2",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FAT_Prac_q1",
+            "request": "launch",
+            "vmArgs": "--module-path \"C:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\" --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "FAT_Prac_q1",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
+            "name": "Launch JDBCdemo",
+            "request": "launch",
+            "mainClass": "JDBCdemo",
+            "projectName": "Java_439a2f0f"
+        },
+        {
+            "type": "java",
             "name": "Launch listviewtest",
             "request": "launch",
             "vmArgs": "--module-path \"C:\\Program Files\\JavaFX\\javafx-sdk-18\\lib\" --add-modules javafx.controls,javafx.fxml",

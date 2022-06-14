@@ -11,14 +11,12 @@ public class ThreadDemo {
         Runnable r = new task();
         Thread t = new Thread(r);
         t.start(); //
-        
 
         //Job 3 and 4 will not execute until Job 2 is done - Sequential Control flow
         for(int doc = 1; doc <= 10; doc++)
         {
             System.out.println(" $ Printing Document #"+doc+" - Printer 1");//Job 3
         }
-
 
         System.out.println("Application Test 1 Finished");//Job 4   
         //Job 1,2,3 are done in sequence   

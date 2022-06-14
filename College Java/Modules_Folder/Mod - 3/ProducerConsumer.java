@@ -6,7 +6,7 @@ public class ProducerConsumer {
         
         Thread pt = new Thread(producer);
         Thread ct = new Thread(consumer);
-
+    
         pt.start();
         ct.start();
     }

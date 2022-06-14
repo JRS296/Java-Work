@@ -19,13 +19,13 @@ public class FileInputStream_Demo {
 class Intellipaat {
     public static void main(String args[]) {
         try{
-            FileOutputstream fo=new FileOutputStream("dummy.txt");
+            FileOutputstream fo = new FileOutputStream("dummy.txt");
             String i= "Hello World";
-            byte b[]=i.getBytes();/ /converting string into byte array
+            byte b[]=i.getBytes(); //converting string into byte array
             fo.write(i);
             fo.close();
     }
-    catch(Exception e){
-    system.out.println(e);}
+    catch(Exception e){ 
+    System.out.println(e);}
     }
 }
